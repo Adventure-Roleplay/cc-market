@@ -18,13 +18,13 @@ Config.Markets = {
         },
         jobs = {}, -- allowed jobs for this market
         items = {
-            {name = "kupfer", label = "Kupfer", price = 1000, minPrice = 400, maxPrice = 900},
-            {name = "rubine", label = "Rubin", price = 2500, minPrice = 1800, maxPrice = 3250},
-            {name = "erdoel", label = "Erdöl", price = 750, minPrice = 300, maxPrice = 1000},
-            {name = "gold", label = "Gold", price = 1500, minPrice = 500, maxPrice = 1800},
-            {name = "gummi", label = "Gummi", price = 300, minPrice = 150, maxPrice = 450},
-            {name = "plastik", label = "Plastik", price = 400, minPrice = 300, maxPrice = 500},
-            {name = "eisen", label = "Eisen", price = 1500, minPrice = 500, maxPrice = 700},
+            {name = "kupfer", label = "Kupfer", price = 1000, minPrice = 200, maxPrice = 350},
+            {name = "rubine", label = "Rubin", price = 2500, minPrice = 200, maxPrice = 350},
+            {name = "erdoel", label = "Erdöl", price = 750, minPrice = 200, maxPrice = 350},
+            {name = "gold", label = "Gold", price = 1500, minPrice = 200, maxPrice = 350},
+            {name = "gummi", label = "Gummi", price = 300, minPrice = 200, maxPrice = 350},
+            {name = "plastik", label = "Plastik", price = 400, minPrice = 200, maxPrice = 350},
+            {name = "eisen", label = "Eisen", price = 1500, minPrice = 200, maxPrice = 700},
             {name = "diamond", label = "Diamanten", price = 2250, minPrice = 1500, maxPrice = 2500},
             {name = "milkbottle", label = "Milchflasche", price = 300, minPrice = 100, maxPrice = 450},
             {name = "melon", label = "Melone", price = 300, minPrice = 200, maxPrice = 400},
@@ -84,16 +84,16 @@ Config.Markets = {
         type = "shadow",
         ped = {
             usePed = false,
-            model = "mp_m_exarmy_01",
-            coords = vector3(-496.44, -2811.89, 6.0),
-            heading = 180.0,
+            model = "csb_vincent",
+            coords = vector3(409.03, 4828.46, -55.0),
+            heading = 193.54,
         },
         marker = {
             useMarker = true,
             type = 29,
             color = {r = 64, g = 64, b = 64},
             size = {x = 1.0, y = 1.0, z = 1.0},
-            coords = vector3(908.33, -3207.04, -97.19),
+            coords = vector3(408.88, 4829.41, -59.0),
 
         },
         jobs = {"shadow"}, -- allowed jobs for this market
@@ -171,7 +171,7 @@ Config.SellShops = {
             type = 29,
             color = {r = 64, g = 64, b = 64},
             size = {x = 1.0, y = 1.0, z = 1.0},
-            coords = vector3(891.76, -3211.7, -98.2),
+            coords = vector3(403.21, 4827.47, -59.0),
         },
         jobs = {"shadow"}, -- allowed jobs for this market
 
