@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'PrimeState'
+author 'Cataleya Scripts'
 version '1.0.0'
 lua54 'yes'
 
@@ -16,6 +16,7 @@ client_scripts {
 server_scripts {
     'server/main.lua',
     '@oxmysql/lib/MySQL.lua',
+    'server/version.lua'
 }
 
 files {

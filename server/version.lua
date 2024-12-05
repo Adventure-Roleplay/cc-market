@@ -1,0 +1,1 @@
+lib.versionCheck('Adventure-Roleplay/cc-market')
