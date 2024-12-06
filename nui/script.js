@@ -1,1 +1,100 @@
-function _0x4b59(){const _0x47f8ea=['.png','message','style','Escape','20990PFbnrW','data','no-change','innerHTML','textContent','keydown','div','action','price','14KYBKTO','classList','click','2325993JEoGHD','flex','/closeMarket','abs','red','src','3029724rlkQMC','3209605JsATmp','stringify','add','application/json;\x20charset=UTF-8','208394JFEXGO','addEventListener','1343134JNWZgU','details','nui://ox_inventory/web/images/','1395AQtTGm','16FqlTeb','appendChild','↓\x20-$','display','priceChange','11QoGLVe','white','6AHoNGS','createElement','closeMarket','dataset','closeButton','4aEeQmZ','key','itemName','none','items','getElementById','change-up','label','img','name','className','marketContainer','forEach','↑\x20+$','item','728126HSIwge','color','6LjYsaU'];_0x4b59=function(){return _0x47f8ea;};return _0x4b59();}const _0x2ba5b7=_0x2d7a;(function(_0x512f11,_0x6f0de1){const _0x2b362f=_0x2d7a,_0x3b6909=_0x512f11();while(!![]){try{const _0x4cec9e=parseInt(_0x2b362f(0xde))/0x1*(parseInt(_0x2b362f(0xd1))/0x2)+-parseInt(_0x2b362f(0xc6))/0x3*(parseInt(_0x2b362f(0xe3))/0x4)+-parseInt(_0x2b362f(0xcd))/0x5*(-parseInt(_0x2b362f(0xf4))/0x6)+parseInt(_0x2b362f(0xf2))/0x7*(parseInt(_0x2b362f(0xd7))/0x8)+parseInt(_0x2b362f(0xd6))/0x9*(parseInt(_0x2b362f(0xf9))/0xa)+-parseInt(_0x2b362f(0xdc))/0xb*(parseInt(_0x2b362f(0xcc))/0xc)+-parseInt(_0x2b362f(0xd3))/0xd*(parseInt(_0x2b362f(0x102))/0xe);if(_0x4cec9e===_0x6f0de1)break;else _0x3b6909['push'](_0x3b6909['shift']());}catch(_0x1ff7cd){_0x3b6909['push'](_0x3b6909['shift']());}}}(_0x4b59,0xa36ae),window[_0x2ba5b7(0xd2)](_0x2ba5b7(0xf6),function(_0x292328){const _0x22ce14=_0x2ba5b7;if(_0x292328[_0x22ce14(0xfa)][_0x22ce14(0x100)]==='openMarket')openMarket(_0x292328[_0x22ce14(0xfa)][_0x22ce14(0xe7)]);else{if(_0x292328[_0x22ce14(0xfa)]['action']===_0x22ce14(0xe0))closeMarket();else _0x292328[_0x22ce14(0xfa)]['action']==='updatePrices'&&updatePrices(_0x292328['data'][_0x22ce14(0xe7)]);}}));function openMarket(_0x1fa29a){const _0xb5ebfa=_0x2ba5b7,_0x2b48c2=document['getElementById'](_0xb5ebfa(0xee)),_0x1c5de2=document['getElementById']('items');_0x1c5de2['innerHTML']='',_0x1fa29a[_0xb5ebfa(0xef)](_0x4dd3f8=>{const _0x562326=_0xb5ebfa,_0x1c8943=createItemElement(_0x4dd3f8);_0x1c5de2[_0x562326(0xd8)](_0x1c8943);}),_0x2b48c2[_0xb5ebfa(0xf7)][_0xb5ebfa(0xda)]=_0xb5ebfa(0xc7);}function updatePrices(_0x3a28c8){const _0x4c199b=_0x2ba5b7,_0x525600=document[_0x4c199b(0xe8)]('items');_0x525600[_0x4c199b(0xfc)]='',_0x3a28c8[_0x4c199b(0xef)](_0x1fdd99=>{const _0x128577=_0x4c199b,_0x3eeab9=createItemElement(_0x1fdd99);_0x525600[_0x128577(0xd8)](_0x3eeab9);});}function createItemElement(_0x12456d){const _0xecc246=_0x2ba5b7,_0x2da76b=document[_0xecc246(0xdf)]('li');_0x2da76b[_0xecc246(0xed)]=_0xecc246(0xf1),_0x2da76b[_0xecc246(0xe1)][_0xecc246(0xe5)]=_0x12456d[_0xecc246(0xec)];const _0x3a56be=document[_0xecc246(0xdf)](_0xecc246(0xeb));_0x3a56be[_0xecc246(0xcb)]=_0xecc246(0xd5)+_0x12456d[_0xecc246(0xec)]+_0xecc246(0xf5);const _0x111d90=document[_0xecc246(0xdf)](_0xecc246(0xff));_0x111d90[_0xecc246(0xed)]=_0xecc246(0xd4);const _0x3faeb5=document[_0xecc246(0xdf)]('div');_0x3faeb5[_0xecc246(0xfd)]=_0x12456d[_0xecc246(0xea)];const _0x39ca82=document['createElement'](_0xecc246(0xff));_0x39ca82[_0xecc246(0xed)]='price';const _0x712339=_0x12456d[_0xecc246(0xdb)]>=0x0?_0xecc246(0xf0)+_0x12456d[_0xecc246(0xdb)]:_0xecc246(0xd9)+Math[_0xecc246(0xc9)](_0x12456d[_0xecc246(0xdb)]);_0x39ca82[_0xecc246(0xfd)]=_0x12456d[_0xecc246(0x101)]+'$';if(_0x12456d[_0xecc246(0xdb)]>0x0)_0x39ca82['classList'][_0xecc246(0xcf)](_0xecc246(0xe9));else _0x12456d[_0xecc246(0xdb)]<0x0?_0x39ca82[_0xecc246(0xc4)][_0xecc246(0xcf)]('change-down'):_0x39ca82['classList'][_0xecc246(0xcf)](_0xecc246(0xfb));const _0x5c52ed=document['createElement'](_0xecc246(0xff));_0x5c52ed[_0xecc246(0xfd)]=_0x712339;if(_0x12456d[_0xecc246(0xdb)]>0x0)_0x5c52ed[_0xecc246(0xf7)]['color']='green';else _0x12456d[_0xecc246(0xdb)]<0x0?_0x5c52ed[_0xecc246(0xf7)][_0xecc246(0xf3)]=_0xecc246(0xca):_0x5c52ed['style']['color']=_0xecc246(0xdd);return _0x111d90['appendChild'](_0x3faeb5),_0x111d90[_0xecc246(0xd8)](_0x39ca82),_0x111d90[_0xecc246(0xd8)](_0x5c52ed),_0x2da76b[_0xecc246(0xd8)](_0x3a56be),_0x2da76b['appendChild'](_0x111d90),_0x2da76b;}function closeMarket(){const _0x3a4a01=_0x2ba5b7,_0x34504c=document[_0x3a4a01(0xe8)](_0x3a4a01(0xee));_0x34504c[_0x3a4a01(0xf7)][_0x3a4a01(0xda)]=_0x3a4a01(0xe6),fetch('https://'+GetParentResourceName()+_0x3a4a01(0xc8),{'method':'POST','headers':{'Content-Type':_0x3a4a01(0xd0)},'body':JSON[_0x3a4a01(0xce)]({})});}function _0x2d7a(_0x45643b,_0x46c4f5){const _0x4b59a8=_0x4b59();return _0x2d7a=function(_0x2d7af7,_0x591556){_0x2d7af7=_0x2d7af7-0xc4;let _0x2d9dc5=_0x4b59a8[_0x2d7af7];return _0x2d9dc5;},_0x2d7a(_0x45643b,_0x46c4f5);}document[_0x2ba5b7(0xe8)](_0x2ba5b7(0xe2))[_0x2ba5b7(0xd2)](_0x2ba5b7(0xc5),function(){closeMarket();}),document[_0x2ba5b7(0xd2)](_0x2ba5b7(0xfe),function(_0x10f264){const _0x1f6f2e=_0x2ba5b7;_0x10f264[_0x1f6f2e(0xe4)]===_0x1f6f2e(0xf8)&&closeMarket();});
+window.addEventListener('message', function(event) {
+    if (event.data.action === 'openMarket') {
+        openMarket(event.data.items);
+    } else if (event.data.action === 'closeMarket') {
+        closeMarket();
+    } else if (event.data.action === 'updatePrices') {
+        updatePrices(event.data.items);
+    }
+});
+
+function openMarket(items) {
+    const marketDiv = document.getElementById('marketContainer');
+    const itemsDiv = document.getElementById('items');
+    itemsDiv.innerHTML = '';
+
+    items.forEach(item => {
+        const itemDiv = createItemElement(item);
+        itemsDiv.appendChild(itemDiv);
+    });
+
+    marketDiv.style.display = 'flex';
+}
+
+function updatePrices(items) {
+    const itemsDiv = document.getElementById('items');
+    itemsDiv.innerHTML = '';
+
+    items.forEach(item => {
+        const itemDiv = createItemElement(item);
+        itemsDiv.appendChild(itemDiv);
+    });
+}
+
+function createItemElement(item) {
+    const itemDiv = document.createElement('li');
+    itemDiv.className = 'item';
+    itemDiv.dataset.itemName = item.name;
+
+    const img = document.createElement('img');
+    img.src = `nui://ox_inventory/web/images/${item.name}.png`;
+
+    const detailsDiv = document.createElement('div');
+    detailsDiv.className = 'details';
+
+    const nameDiv = document.createElement('div');
+    nameDiv.textContent = item.label;
+
+    const priceDiv = document.createElement('div');
+    priceDiv.className = 'price';
+    const priceChangeFormatted = item.priceChange >= 0 ? `↑ +$${item.priceChange}` : `↓ -$${Math.abs(item.priceChange)}`;
+    priceDiv.textContent = `${item.price}$`;
+    if (item.priceChange > 0) {
+        priceDiv.classList.add('change-up');
+    } else if (item.priceChange < 0) {
+        priceDiv.classList.add('change-down');
+    } else {
+        priceDiv.classList.add('no-change');
+    }
+
+    const changeDiv = document.createElement('div');
+    changeDiv.textContent = priceChangeFormatted;
+    if (item.priceChange > 0) {
+        changeDiv.style.color = 'green';
+    } else if (item.priceChange < 0) {
+        changeDiv.style.color = 'red';
+    } else {
+        changeDiv.style.color = 'white';
+    }
+
+    detailsDiv.appendChild(nameDiv);
+    detailsDiv.appendChild(priceDiv);
+    detailsDiv.appendChild(changeDiv);
+    itemDiv.appendChild(img);
+    itemDiv.appendChild(detailsDiv);
+
+    return itemDiv;
+}
+
+function closeMarket() {
+    const marketDiv = document.getElementById('marketContainer');
+    marketDiv.style.display = 'none';
+    fetch(`https://${GetParentResourceName()}/closeMarket`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8',
+        },
+        body: JSON.stringify({}),
+    });
+}
+
+document.getElementById('closeButton').addEventListener('click', function() {
+    closeMarket();
+});
+
+// Add listener for escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === "Escape") {
+        closeMarket();
+    }
+});
