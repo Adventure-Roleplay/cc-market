@@ -16,7 +16,6 @@ client_scripts {
 server_scripts {
     'server/main.lua',
     '@oxmysql/lib/MySQL.lua',
-    'server/version.lua'
 }
 
 files {
@@ -33,7 +32,4 @@ dependencies {
     'ox_lib',
     'ox_inventory',
     'oxmysql'
-}
-escrow_ignore {
-    'config.lua'
 }
